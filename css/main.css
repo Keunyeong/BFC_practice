@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+  padding: 4px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.open_cast {
+  position: relative;
+  border : 1px solid #D6D6D6;
+  width: 595px;
+  height: 193px;
+  box-sizing: border-box;
+}
+.open_cast > nav {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  left: 18px;
+}
+
+.open_cast > nav > h3 > img {
+  margin-right: 5px;
+}
+
+.open_cast > nav > ul {
+  display:flex;
+}
+
+.open_cast > nav > ul > li {
+  height: 13px;
+  line-height: 13px;
+  padding: 0 4px;
+}
+
+.open_cast > nav > ul > li > a{
+  color: #736D70;
+  font-size: 11px;
+}
+
+.open_cast > nav > ul > li > a.on{
+  color: black;
+  font-weight: 700;
+}
+
+.open_cast > nav > ul > li + li {
+  border-left: 1px solid #736D70;
+}
+
+.open_cast > section {
+  width: 595px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 43px;
+  border-top: 1px solid #D6D6D6;
+  padding: 15px 17px;
+}
+
+.open_cast > section > h3 {
+  margin-bottom: 10px;
+}
+
+.open_cast > section > h3 > span{
+  margin-left: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #848689;
+}
+
+.open_cast > section > .contents {
+  display: flex;
+}
+
+.open_cast > section > .contents > ul {
+  display: flex;
+}
+
+.open_cast > section > .contents > ul > li + li{
+  margin-left: 10px;
+}
+
+.open_cast > section > .contents > ul > li > img{
+  border: 1px solid #D6D6D6;
+}
+
+.open_cast > section > .contents > ul > li > h5 {
+  font-weight: 400;
+}
+
+.open_cast > section > .contents > article {
+  border-left: 1px solid #D6D6D6;
+  margin-left: 10px;
+  padding: 3px 0 0 10px;
+}
+
+.open_cast > section > .contents > article > h5{
+  margin-bottom: 5px;
+  color: #379A14;
+}
+
+.open_cast > section > .contents > article > p{
+  margin-bottom: 10px;
+  font-weight: 400;
+}
